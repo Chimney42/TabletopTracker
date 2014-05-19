@@ -8,8 +8,10 @@
     </head>
     <body>
         <div class="container_24">
-            <div class="navi grid_3">Add Game</div>
-            <div></div>
+            <div class="grid_24">
+                <div class="navi grid_3">Add Game</div>
+                <iframe src=""></iframe>
+            </div>
         </div>
     </body>
 </html>
