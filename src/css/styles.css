@@ -2,6 +2,14 @@ body {
     text-align: center;
 }
 
-.navi {
+#container {
+    width: 50%;
+    margin: 0 auto;
+}
+#content {
+    margin-top: 20px;
+}
+
+.naviItem {
     border: 1px solid black;
 }

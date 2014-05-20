@@ -8,5 +8,15 @@ tabletopTracker.controller('NaviController', ['$scope',
                 'link' : 'src/views/game/addGame.php'
             }
         ];
+        
+        $scope.goTo = function(link) {
+            $scope.partial = link;
+        };
+    }
+]);
+
+tabletopTracker.controller('GameController', ['$scope',
+    function($scope) {
+
     }
 ]);
