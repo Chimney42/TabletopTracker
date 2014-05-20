@@ -1,5 +1,5 @@
-tabletopTracker.controller('naviController', ['$scope', 'gameService',
-    function($scope, gameService) {
+tabletopTracker.controller('NaviController', ['$scope',
+    function($scope) {
         $scope.partial = 'src/views/index.php';
         
         $scope.items = [

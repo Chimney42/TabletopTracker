@@ -9,8 +9,8 @@
     </head>
     <body>
         <div class="container_24">
-            <div class="grid_24" ng-controller="naviController">
-                <div class="navi grid_3 alpha" ng-repeat="item in items">
+            <div class="grid_24" ng-controller="NaviController">
+                <div class="grid_3 alpha navi" ng-repeat="item in items">
                     <div ng-click="goTo(item.link)">{{item.name}}</div>
                 </div>
                 <div id="content" ng-include="partial"></div>
