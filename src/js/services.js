@@ -1,1 +1,0 @@
-var tabletopTracker = angular.module('tabletopTracker', []);
